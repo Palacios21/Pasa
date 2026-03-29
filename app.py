@@ -13,7 +13,7 @@ st.write("Versión de Python:", platform.python_version())
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-st.title("Reconocemos tus Imágenes")
+st.title("Reconoce las Imágenes")
 #st.write("Versión de Python:", platform.python_version())
 image = Image.open('IA_human.webp')
 st.image(image, width=350)
